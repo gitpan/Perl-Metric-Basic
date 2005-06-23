@@ -1,0 +1,8 @@
+CHANGES file for Perl::Metric::Basic:
+
+0.29 Thu Jun 23 08:34:59 BST 2005
+  - rename from PPI::Metric::Basic to Perl::Metric::Basic
+
+0.28 Sat Sep 25 17:48:44 BST 2004
+  - first release
+

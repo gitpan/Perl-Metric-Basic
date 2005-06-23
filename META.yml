@@ -1,0 +1,17 @@
+---
+name: Perl-Metric-Basic
+version: 0.29
+author:
+  - Leon Brocard <acme@astray.com>
+abstract: Provide basic software metrics
+license: perl
+requires:
+  PPI: 0
+  Scalar::Util: 0
+  Test::Exception: 0
+  Test::More: 0
+provides:
+  Perl::Metric::Basic:
+    file: lib/Perl/Metric/Basic.pm
+    version: 0.29
+generated_by: Module::Build version 0.261
