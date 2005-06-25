@@ -14,7 +14,7 @@ throws_ok { $m->measure($m) } qr/No PPI::Document passed/;
 
 my ($document, $metric);
 
-$document = PPI::Document->load("t/lib/Acme.pm");
+$document = PPI::Document->new("t/lib/Acme.pm");
 isa_ok($document, 'PPI::Document');
 
 lives_ok { $metric = $m->measure($document) };

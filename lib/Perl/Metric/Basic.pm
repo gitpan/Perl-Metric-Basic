@@ -3,7 +3,7 @@ use strict;
 use base qw(Class::Accessor);
 use Scalar::Util qw(blessed);
 __PACKAGE__->mk_accessors(qw());
-our $VERSION = '0.29';
+our $VERSION = '0.30';
 
 sub measure {
   my $self     = shift;

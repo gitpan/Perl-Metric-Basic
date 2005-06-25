@@ -9,7 +9,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => '0',
                            'Scalar::Util' => '0',
-                           'PPI' => '0',
+                           'PPI' => '0.993',
                            'Test::Exception' => '0'
                          }
         )
