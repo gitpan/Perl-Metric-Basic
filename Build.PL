@@ -6,6 +6,7 @@ my $build = Module::Build->new(
   license     => 'perl',
   module_name => 'Perl::Metric::Basic',
   requires    => {
+    'Class::Accessor'  => '0',
     'PPI'              => '0.993',
     'Test::Exception'  => '0',
     'Test::More'       => '0',

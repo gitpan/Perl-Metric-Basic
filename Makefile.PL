@@ -2,15 +2,16 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
           'NAME' => 'Perl::Metric::Basic',
           'VERSION_FROM' => 'lib/Perl/Metric/Basic.pm',
           'PREREQ_PM' => {
-                           'Test::More' => '0',
-                           'Scalar::Util' => '0',
+                           'Class::Accessor' => '0',
                            'PPI' => '0.993',
-                           'Test::Exception' => '0'
-                         }
+                           'Scalar::Util' => '0',
+                           'Test::Exception' => '0',
+                           'Test::More' => '0'
+                         },
+          'INSTALLDIRS' => 'site',
+          'PL_FILES' => {}
         )
 ;
